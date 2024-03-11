@@ -16,7 +16,7 @@ public class Arreglos_Matrices {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        /*
+        
         //Arreglos - Ejercicio 1
         
             EjArreglo1y2 ejA1 = new EjArreglo1y2();
@@ -83,13 +83,13 @@ public class Arreglos_Matrices {
             
             //Obtener el numero mayor de toda la matriz
             JOptionPane.showMessageDialog(null, "El numero mayor de la matriz es: "+ejM1.NumeroMayor(matriz));
-        */
+        
         //Matrices - Ejercicio 2
         
             EjMatriz2 ejM2 = new EjMatriz2();
                         
             //Se llena la matriz con numeros al azar del 1 al 1000
-            int matriz[][]=ejM2.RellenarMatriz();
+            matriz=ejM2.RellenarMatriz();
             
             //Se recorre la matriz
             JOptionPane.showMessageDialog(null, ejM2.RecorrerMatriz(matriz));
