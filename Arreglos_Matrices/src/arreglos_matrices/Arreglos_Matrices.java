@@ -61,7 +61,7 @@ public class Arreglos_Matrices {
                 break;
             default:
                 JOptionPane.showMessageDialog(null, "Numero de vendedor invalido.");
-        }
+            }
         
         //Matrices - Ejercicio 1
         
